@@ -12,7 +12,7 @@
     "postcss-plugin-px2em": "^1.0.1",
     "stylus": "^0.59.0",
     "svgo": "^3.0.2",
-    "zx": "^7.2.1"
+    "zx": "^7.2.2"
   },
   "dependencies": {}
 }
