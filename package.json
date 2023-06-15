@@ -7,7 +7,7 @@
     "autoprefixer": "^10.4.14",
     "coffeescript": "^2.7.0",
     "iter2file": "^0.0.8",
-    "postcss": "^8.4.23",
+    "postcss": "^8.4.24",
     "postcss-csso": "^6.0.1",
     "postcss-plugin-px2em": "^1.0.1",
     "stylus": "^0.59.0",

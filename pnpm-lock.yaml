@@ -12,7 +12,7 @@ devDependencies:
     version: 0.0.1
   autoprefixer:
     specifier: ^10.4.14
-    version: 10.4.14(postcss@8.4.23)
+    version: 10.4.14(postcss@8.4.24)
   coffeescript:
     specifier: ^2.7.0
     version: 2.7.0
@@ -20,11 +20,11 @@ devDependencies:
     specifier: ^0.0.8
     version: 0.0.8
   postcss:
-    specifier: ^8.4.23
-    version: 8.4.23
+    specifier: ^8.4.24
+    version: 8.4.24
   postcss-csso:
     specifier: ^6.0.1
-    version: 6.0.1(postcss@8.4.23)
+    version: 6.0.1(postcss@8.4.24)
   postcss-plugin-px2em:
     specifier: ^1.0.1
     version: 1.0.1
@@ -162,7 +162,7 @@ packages:
       color-convert: 2.0.1
     dev: true
 
-  /autoprefixer@10.4.14(postcss@8.4.23):
+  /autoprefixer@10.4.14(postcss@8.4.24):
     resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -174,7 +174,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.23
+      postcss: 8.4.24
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -715,14 +715,14 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /postcss-csso@6.0.1(postcss@8.4.23):
+  /postcss-csso@6.0.1(postcss@8.4.24):
     resolution: {integrity: sha512-ZV4yEziMrx6CEiqabGLrDva0pMD7Fbw7yP+LzJvaynM4OJgTssGN6dHiMsJMJdpmNaLJltXVLsrb/5sxbFa8sA==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=15.0.0, npm: '>=7.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
       csso: 5.0.5
-      postcss: 8.4.23
+      postcss: 8.4.24
     dev: true
 
   /postcss-plugin-px2em@1.0.1:
@@ -745,8 +745,8 @@ packages:
       supports-color: 3.2.3
     dev: true
 
-  /postcss@8.4.23:
-    resolution: {integrity: sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==}
+  /postcss@8.4.24:
+    resolution: {integrity: sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
