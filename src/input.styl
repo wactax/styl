@@ -1,7 +1,7 @@
 @import './var.styl'
 
 // input[type]:not([type=radio], [type=checkbox])
-input:is([type=text], [type=password])
+:global(input:is([type=text], [type=password]))
   border 1px solid #ccc
   border-radius 0
   box-sizing border-box
@@ -11,10 +11,10 @@ input:is([type=text], [type=password])
   padding 16px
   width 100%
 
-input:is([type=text], [type=password]):autofill
+:global(input:is([type=text], [type=password]):autofill)
   background-clip text
 
-input:is([type=text], [type=password]) + label
+:global(input:is([type=text], [type=password]) + label)
   background #fff
   border-radius 12px
   color #999
@@ -27,39 +27,39 @@ input:is([type=text], [type=password]) + label
   transition all 0.3s
   user-select none
 
-input:is([type=text], [type=password]):focus
+:global(input:is([type=text], [type=password]):focus)
   border-color focus-color
   color #000
 
-input:is([type=text], [type=password]):focus + label
+:global(input:is([type=text], [type=password]):focus + label)
   color focus-color
 
-input:is([type=text], [type=password]):hover
+:global(input:is([type=text], [type=password]):hover)
   border-color hover-color
 
-input:is([type=text], [type=password]):hover + label
+:global(input:is([type=text], [type=password]):hover + label)
   color hover-color
 
-input:is([type=text], [type=password]):disabled
+:global(input:is([type=text], [type=password]):disabled)
   background #f9f9f9
   color #999
   display inline-block
   position relative
   user-select none
 
-input:is([type=text], [type=password]):disabled + label
+:global(input:is([type=text], [type=password]):disabled + label)
   border-bottom 1px solid #eee
 
-input:is([type=text], [type=password])::-webkit-input-placeholder
+:global(input:is([type=text], [type=password])::-webkit-input-placeholder)
   user-select none
 
-input:is([type=text], [type=password])::placeholder
+:global(input:is([type=text], [type=password])::placeholder)
   user-select none
 
-input:is([type=text], [type=password]):disabled:hover
+:global(input:is([type=text], [type=password]):disabled:hover)
   border 1px solid #ccc
 
-input:is([type=text], [type=password]):placeholder-shown + label
+:global(input:is([type=text], [type=password]):placeholder-shown + label)
   background transparent
   color #999
   cursor text
