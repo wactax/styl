@@ -1,14 +1,17 @@
 .toast
+  align-items center
   animation-duration 0.5s
   background rgba(0, 0, 0, 0.7)
   border-radius 14px
   bottom 14px
   box-shadow 0 0 1px #85DA1A inset
   color #fff
+  display flex
   font-size 14px
   font-weight bold
   left 14px
   line-height 1.4
+  overflow visible !important
   padding 7px 14px
   position fixed
   text-align center
@@ -16,24 +19,29 @@
   z-index 99999
 
   &.ERR
-    background rgba(255, 0, 0, 0.8)
+    background rgba(255, 0, 0, 0.7)
     border 1px solid rgba(255, 255, 255, 0.2)
     box-shadow 0 0 3px #f00 inset
     color #fff
     font-weight normal
 
-    a
-      color #eef
+    &>.x
+      background-image var(--svg-x)
+      filter invert(42%) sepia(1) saturate(15)
 
       &:hover
-        color #ff0
+        filter invert(1) sepia(1) saturate(47)
 
-  .I-close
+  &>.x
+    background var(--svg-x) 0 0 / cover no-repeat
     cursor pointer
-    font-size 12px
-    font-weight bold
-    margin-left 8px
+    display block
+    height 18px
+    margin-left 0.5em
+    position absolute
+    right -26px
     user-select none
+    width 18px
 
     &:hover
-      color #0f0
+      filter invert(42%) sepia(1) saturate(47)
