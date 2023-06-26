@@ -1,4 +1,4 @@
-.toast
+:global(.toast)
   animation-duration 0.5s
   background rgba(0, 0, 0, 0.7)
   border-radius 14px
@@ -14,25 +14,25 @@
   transition 0.5s all
   z-index 99999
 
-  &.ERR
+  :global(&.ERR)
     background rgba(255, 0, 0, 0.8)
     border 1px solid rgba(255, 255, 255, 0.2)
     box-shadow 0 0 3px #f00 inset
     color #fff
     font-weight normal
 
-    a
+    :global(a)
       color #eef
 
-      &:hover
+      :global(&:hover)
         color #ff0
 
-  .I-close
+  :global(.I-close)
     cursor pointer
     font-size 12px
     font-weight bold
     margin-left 8px
     user-select none
 
-    &:hover
+    :global(&:hover)
       color #0f0
