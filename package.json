@@ -4,15 +4,15 @@
     "@w5/loader": "^0.0.3",
     "@w5/uridir": "^0.0.1",
     "@w5/walk": "^0.0.1",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.15",
     "coffeescript": "^2.7.0",
     "iter2file": "^0.0.8",
-    "postcss": "^8.4.24",
+    "postcss": "^8.4.29",
     "postcss-csso": "^6.0.1",
     "postcss-plugin-px2em": "^1.0.1",
-    "stylus": "^0.59.0",
+    "stylus": "^0.60.0",
     "svgo": "^3.0.2",
-    "zx": "^7.2.2"
+    "zx": "^7.2.3"
   },
   "dependencies": {}
 }
